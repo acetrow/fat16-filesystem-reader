@@ -23,10 +23,10 @@ A simple C program to read and interpret a FAT16 filesystem image. It can displa
    cd fat16-filesystem-reader
 
 2. Compile the program:
-   gcc -o fat16_reader fat16_reader.c
+   gcc -o fat16-reader fat16-reader.c
 
 3. Run the program with a FAT16 disk image:
-   ./fat16_reader
+   ./fat16-reader
 
 4. Follow the prompts:
    - Enter the starting cluster number to see cluster chains
